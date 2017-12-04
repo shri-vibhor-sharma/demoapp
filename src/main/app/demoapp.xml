@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
 http://www.mulesoft.org/schema/mule/ee/wmq http://www.mulesoft.org/schema/mule/ee/wmq/current/mule-wmq-ee.xsd">
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="10032" doc:name="HTTP Listener Configuration"/>
     <flow name="demoappFlow">
-        <http:listener config-ref="HTTP_Listener_Configuration" path="/hello" doc:name="HTTP"/>
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/hello1" doc:name="HTTP"/>
         <set-payload value="#[server.ip]" doc:name="Set Payload1"/>
     </flow>
 </mule>

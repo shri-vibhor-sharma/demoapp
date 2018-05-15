@@ -67,8 +67,8 @@
         <configuration>
             <deploymentType>cloudhub</deploymentType>
             <muleVersion>3.7.0</muleVersion>
-            <username>svibhors</username>
-            <password>svibhors</password>
+            <username>smarthala</username>
+            <password>@Boston2018</password>
             <redeploy>true</redeploy>
             <environment>DM</environment>
         </configuration>
